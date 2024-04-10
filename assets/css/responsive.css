@@ -1,0 +1,40 @@
+
+@media (max-width: 1300px) {
+    .fs-custom-01 {
+    	font-size: 22px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.section-bgr-01 .row,
+	.section-bgr-02 .row {
+		padding: 0;
+	}
+    .fs-custom-01 {
+    
+	}
+}
+
+@media (max-width: 992px) {
+    .heading {
+	    font-size: 24px;
+	}
+}
+
+@media (max-width: 767px) {
+	.space-section {
+		margin-top: 70px;
+	}
+
+    .column-content {
+    	margin-top: 35px;
+    }
+}
+
+
+
+
+
+
+
+
