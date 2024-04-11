@@ -3,6 +3,11 @@
     z-index: 999;
 }   
 
+header {
+    z-index: 99;
+    position: relative;
+}
+
 .row-header {
     margin: 0;
     padding: 0;
@@ -86,9 +91,7 @@ ul.main-menu {
     height: 36px;
     line-height: 36px;
     text-align: center;
-    background-color: var(--primary_color);
-    border-radius: 100%;
-    margin-left: 20px;
+    margin-left: 10px;
     display: none;
 }
 
@@ -96,14 +99,14 @@ ul.main-menu {
 #menu-sidebar .btn-nav-icon:before,
 #menu-sidebar .btn-nav-icon:after {
     content: "";
-    background-color: #fff;
+    background-color: #333;
     display: block;
     height: 2px;
     left: 0;
     margin: auto;
     position: absolute;
     right: 0;
-    width: 18px;
+    width: 22px;
 }
 
 #menu-sidebar .btn-nav-icon:before {

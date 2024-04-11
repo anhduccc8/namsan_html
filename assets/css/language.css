@@ -44,7 +44,7 @@
     bottom: 100%;
     left: 0;
     font-size: 14px;
-    min-width: 51px;
+    min-width: 54px;
     padding: 8px 10px 6px;
     background-color: #fff;
     z-index: 99;
@@ -54,6 +54,7 @@
     transform: translateY(0);
     border: 1px solid var(--primary_color);
     opacity: 0;
+    z-index: 999;
 }
 .cms-currency-unit ul {
     min-width: 210px;
