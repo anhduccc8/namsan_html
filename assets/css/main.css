@@ -175,6 +175,22 @@ ul li {
 .border-main {
     border-top: 1px solid #EBEBEB;
 }   
+.underline {
+    text-decoration: underline !important;
+}
+
+.hover-zoom {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.hover-zoom img {
+    transition: all .3s ease-in-out;
+}
+
+.hover-zoom:hover img {
+    transform: scale(1.04);
+}
 
 @media (min-width: 1200px) {
     .col-lg-ct-2 {
@@ -191,7 +207,7 @@ ul li {
     font-weight: 400;
     color: #fff;
     height: 33px;
-    line-height: 33px;
+    line-height: 31px;
     padding: 0 10px;
     border-radius: 0;
     overflow: hidden;
@@ -254,6 +270,10 @@ ul li {
 
 .item-list-link li a:hover {
     color: #000;
+}
+
+.site-content {
+    padding: 0 0 100px;
 }
 
 /* Heading */
@@ -323,4 +343,32 @@ ul li {
 .section-bgr-04 .row {
     padding: 0 0 0 65px;
     background-color: #d9d1c9;
+}
+
+/* Form SUBSCRIBE */
+.form-subscribe input {
+    font-weight: 500;
+    min-width: 360px;
+    border-bottom: 1px solid #000 !important;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 0 !important;
+    padding: 5px 20px;
+    margin-right: 15px;
+    border-bottom: 1px solid #000;
+    transform: translateY(-1px);
+}
+
+.form-subscribe button {
+    min-width: 150px;
+    height: 45px;
+    line-height: 45px;
+    background-color: #333;
+    font-size: 15px;
+}
+
+.form-subscribe input:active,
+.form-subscribe input:hover,
+.form-subscribe input:focus {
+    border-radius: 0 !important;
 }

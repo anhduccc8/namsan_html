@@ -30,6 +30,14 @@
 	justify-content: flex-end;
 }
 
+.item-list-menu {
+	flex-wrap: wrap;
+}
+
+.item-list-menu li {
+	margin-bottom: 5px;
+}
+
 .item-list-menu li a {
 	color: #fff;
 	text-transform: uppercase;

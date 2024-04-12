@@ -41,3 +41,13 @@
 .wrap-item-box:hover:before {
     opacity: 0;
 }
+
+/* Section Carousel */
+.wrap-cr-fields {
+    background-color: #f0f0f0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    align-items: end;
+}
+
