@@ -3,9 +3,18 @@
     z-index: 999;
 }   
 
+.site-content {
+    margin-top: 80px;
+}
+
 header {
     z-index: 99;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
 }
 
 .row-header {
@@ -42,7 +51,7 @@ ul.main-menu {
     height: 80px;
     line-height: 80px;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 700;
     padding: 0px 13px; 
     color: var(--secondary_color);
     text-transform: uppercase;
@@ -66,7 +75,7 @@ ul.main-menu {
 .form-search input {
     border: 1px solid var(--primary_color);
     border-radius: 30px;
-    padding: 5px 30px 3px 10px;
+    padding: 4px 30px 4px 10px;
     font-size: 14px;
 }
 
@@ -79,6 +88,10 @@ ul.main-menu {
 
 .form-search button i {
     font-size: 15px;
+}
+
+.form-search-respon {
+    display: none;
 }
 
 /* Style nav menu sidebar */
@@ -131,13 +144,44 @@ ul.main-menu {
     position: relative;
 }
 
+.logo-menu-dropdown {
+    transform: translateY(-5px);
+    display: none;
+}
+
+.nav-close {
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    color: #fff;
+    transform: rotate(45deg);
+    font-size: 40px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.nav-close i {
+    font-weight: 500;
+    transform: translate(7px, -7px);
+}
+
 @media (max-width: 1199px) {
+    .logo-menu-dropdown {
+        display: block;
+    }
+
+    .main-menu {
+        margin-top: 50px;
+    }
+
     .main-menu li a {
         height: 0;
-        line-height: 25px;
         text-transform: capitalize;
         padding-bottom: 10px;
         font-weight: 500;
+        font-size: 25px;
+        line-height: 1.5;
     }
 
     #site-header-wrap #menu-sidebar {
@@ -150,34 +194,71 @@ ul.main-menu {
 
     .site-navigation {
         border-top: 1px solid rgba(0,0,0,8%);
-        background-color: #fff;
+        background-color: #333;
         position: absolute;
         z-index: 1001;
-        padding: 28px 20px 25px;
-        top: 120px;
-        left: 0;
-        right: 0;
+        padding: 28px 35px 25px;
+        top: 0;
+        width: 100%;
+        right: -100%;
         visibility: hidden;
-        opacity: 0;
         z-index: -1;
-        max-height: 80vh;
+        height: 100vh;
         overflow-y: scroll;
         transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
     }
     
     .site-navigation.navigation-open {
-        opacity: 1;
         visibility: visible;
-        top: 70px;
         z-index: 999;
+        width: 100%;
+        right: 0;
         transform: translateY(0);
     }
 
     .site-navigation .main-menu li {
         display: block;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
     }   
     .site-navigation .main-menu li a {
         padding-left: 0;
+        color: #fff;
     }   
+
+    .form-search-respon {
+        position: relative;
+        margin-top: 60px;
+        display: block;
+    }
+
+    .form-search-respon input {
+        width: 100%;
+        background-color: transparent;
+        border: 1px solid #fff !important;
+        border-radius: 50px;
+        height: 45px;
+        line-height: 45px;
+        padding: 5px 20px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .form-search-respon button {
+        position: absolute;
+        top: 13px;
+        right: 15px;
+        background-color: transparent;
+    }
+
+    .form-search-respon button i {
+        font-size: 17px;
+        color: #fff;
+    }
+
+    .form-search-respon input:active,
+    .form-search-respon input:focus,
+    .form-search-respon input:hover {
+        border-color: #fff !important;
+    }
 }
