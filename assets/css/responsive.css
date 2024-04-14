@@ -84,6 +84,14 @@
 	.section-bgr-01 .column-content-bgr {
 		padding: 30px 0 40px;
 	}
+
+	.img-desktop {
+		display: none;
+	}
+	
+	.img-mobile {
+		display: block;
+	}
 }
 
 @media (max-width: 575px) {
