@@ -8,6 +8,21 @@
 	font-size: 1.4em;
 	color: #fff;
 	font-weight: 300;
+	position: relative;
+}
+
+.heading-footer i {
+	font-size: 27px;
+    font-weight: 500;
+    transition: all .1s ease-in-out;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.footer-column.active i {
+	transform: rotate(45deg);
 }
 
 .menu-footer li {

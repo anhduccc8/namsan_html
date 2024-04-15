@@ -24,7 +24,11 @@
 				<div class="row row-header align-center space-between">
 					<div class="site-branding header-left d-flex align-center">
 						<a class="logo logo-desktop" href="#" title="Mori"><img alt="logo-desktop" src="assets/image/logo-desktop.png"></a>
-						<div id="menu-reponsive" class="site-navigation header-menu">                                                                      
+						<div id="menu-reponsive" class="site-navigation header-menu">   
+							<div onclick="navClose()" class="nav-close"><i class="fa-solid fa-plus"></i></div> 
+							<div class="logo-menu-dropdown">
+								<a class="logo logo-desktop" href="#" title="Mori"><img alt="logo-desktop" src="assets/image/logo-desktop.png"></a>
+							</div>                                                                 
 							<ul class="main-menu">
 								<li>
 									<a href="#">Collections</a>
@@ -41,7 +45,14 @@
 								<li>
 									<a href="#">Contact</a>
 								</li>	
+								<li>
+									<form class="form-search-respon" action="/search" method="GET">
+										<input type="text" name="query" placeholder="Search">
+										<button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+									</form>
+								</li>	
 							</ul>
+
 						</div>
 					</div>
 
@@ -434,8 +445,8 @@
 		<section class="footer-top">
 			<div class="container-fluidd">
 				<div class="row">
-					<div class="col-lg-ct-2 col-sm-6 footer-column">
-						<h4 class="heading-footer">COLLECTIONS 01</h4>
+					<div class="col-lg-ct-2 col-sm-6 footer-column footer-item">
+						<h4 onclick="myFunction(0)" class="heading-footer">COLLECTIONS 01 <i class="fa-solid fa-plus"></i></h4>
 						<div id="nav-content-footer" class="nav-content-list">
 							<ul class="menu-footer hover-list-style2">
 								<li class="item"><a href="#">Muse</a></li>
@@ -443,8 +454,8 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-lg-ct-2 col-sm-6 footer-column">
-						<h4 class="heading-footer">SPORT</h4>
+					<div class="col-lg-ct-2 col-sm-6 footer-column footer-item">
+						<h4 onclick="myFunction(1)" class="heading-footer">SPORT <i class="fa-solid fa-plus"></i></h4>
 						<div id="nav-content-footer" class="nav-content-list">
 							<ul class="menu-footer hover-list-style2">
 								<li class="item"><a href="#">Sport</a></li>
@@ -452,8 +463,8 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-lg-ct-2 col-sm-6 footer-column">
-						<h4 class="heading-footer">GET INSPIRED!</h4>
+					<div class="col-lg-ct-2 col-sm-6 footer-column footer-item">
+						<h4 onclick="myFunction(2)" class="heading-footer">GET INSPIRED! <i class="fa-solid fa-plus"></i></h4>
 						<div id="nav-content-footer" class="nav-content-list">
 							<ul class="menu-footer hover-list-style2">
 								<li class="item"><a href="#">Magazines</a></li>
@@ -462,8 +473,8 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-lg-ct-2 col-sm-6 footer-column">
-						<h4 class="heading-footer">MADE 2 MEASURE</h4>
+					<div class="col-lg-ct-2 col-sm-6 footer-column footer-item">
+						<h4 onclick="myFunction(3)" class="heading-footer">MADE 2 MEASURE <i class="fa-solid fa-plus"></i></h4>
 						<div id="nav-content-footer" class="nav-content-list">
 							<ul class="menu-footer hover-list-style2">
 								<li class="item"><a href="#">How we work</a></li>
@@ -471,6 +482,7 @@
 							</ul>
 						</div>
 					</div>
+
 					<div class="col-lg-ct-2 col-sm-6 footer-column">
 						<h4 class="heading-footer">CONTACT US</h4>
 						<ul class="menu-footer hover-list-style2">
