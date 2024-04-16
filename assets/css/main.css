@@ -88,6 +88,10 @@ ul li {
     margin-top: 10px;
 }
 
+.mt-20 {
+    margin-top: 20px;
+}
+
 .mt-70 {
     margin-top: 70px;
 }
@@ -255,6 +259,10 @@ ul li {
 
 .space-section {
     margin-top: 100px;
+}
+
+.space-section-02 {
+    margin-top: 70px;
 }
 
 .item-list-link li a {
