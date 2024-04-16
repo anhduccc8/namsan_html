@@ -40,6 +40,18 @@
 }
 
 @media (max-width: 767px) {
+	.mt-sm-50 {
+		margin-top: 50px;
+	}
+
+	.heading.size-02 {
+		font-size: 28px;
+	}
+
+	.text-left-sm {
+		text-align: left !important;
+	}
+
 	.site-content {
     	padding: 0 0 80px;
 	}
