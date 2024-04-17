@@ -23,3 +23,15 @@ function myFunction(index) {
 	document.querySelectorAll(".footer-item")[index].classList.toggle("active");
 }
 
+/* Menu Collection Mobile */
+var button = document.getElementById("btn-active-collection");
+var div = document.getElementById("menu-above-reponsive");
+
+
+button.addEventListener("click", function() {
+    if (div.classList.contains("active")) {
+        div.classList.remove("active");
+    } else {
+        div.classList.add("active");
+    }
+});
