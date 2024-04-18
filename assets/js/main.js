@@ -35,3 +35,13 @@ button.addEventListener("click", function() {
         div.classList.add("active");
     }
 });
+
+/* Click Item Responsive Footer */
+function acordition(index) {
+    if (document.querySelectorAll(".acordition-item")[index].classList.contains("active")) {
+        document.querySelectorAll(".acordition-item")[index].querySelector(".product-info-list").style.height = 0;
+    } else {
+        document.querySelectorAll(".acordition-item")[index].querySelector(".product-info-list").style.height = `${document.querySelectorAll(".acordition-item")[index].querySelector(".product-info-list").querySelector(".list-item").offsetHeight}px`;
+    }
+    document.querySelectorAll(".acordition-item")[index].classList.toggle("active");
+}
