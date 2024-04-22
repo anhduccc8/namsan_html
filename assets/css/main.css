@@ -207,6 +207,12 @@ ul li {
         padding-right: 15px;
         padding-left: 15px;
     }
+
+    .section-bgr.style-02 {
+        background-repeat: repeat-x;
+        background-position: 50% 50%;
+        background-attachment: scroll;
+    }
 }
 
 .btn-main {
@@ -296,6 +302,14 @@ ul li {
         max-width: 450px;
     }
 
+    .mw-500 {
+        max-width: 500px;
+    }
+
+    .mw-1000 {
+        max-width: 1000px;
+    }
+
     .column-img {
         padding-right: 60px;
     }
@@ -310,6 +324,10 @@ ul li {
 
     .pr-70 {
         padding-right: 70px !important;
+    }
+
+    .pl-70 {
+        padding-left: 70px !important; 
     }
 }
 
@@ -553,6 +571,46 @@ ul li {
 .list-item > a {
     margin-bottom: 10px;
     display: block;
+}
+
+.heading-style {
+    position: relative;
+    padding: 35px 0 30px;
+    margin: 100px auto 100px;
+}
+
+.heading-style:before, 
+.heading-style:after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.heading-style:before {
+    top: 0;
+}
+
+.heading-style:after {
+    bottom: 0;
+}
+
+.heading-style .sub-heading-style {
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+}
+
+.heading-style .hd-style {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-bottom: 0;
 }
 
 
