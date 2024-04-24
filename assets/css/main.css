@@ -687,10 +687,16 @@ ul li {
     background-color: #000;
 }
 
+/* Section our partner */
+.owl-carousel-section .wrap-image {
+    margin-bottom: 40px;
+}
 
+.owl-carousel-section .wrap-image img {
+    margin: 0 auto;
+}
 
-
-
-
-
+.owl-nav {
+    display: none;
+}
 
