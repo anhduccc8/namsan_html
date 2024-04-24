@@ -102,6 +102,10 @@
 	.form-contact-us-02 {
 	    padding: 70px 30px 80px;
 	}
+
+	.mt-lg-50 {
+		margin-top: 50px;
+	}
 }
 
 @media (max-width: 991px) {
@@ -131,6 +135,13 @@
 	    margin: 80px auto 80px;
 	}
 
+	.mt-lg-50 {
+		margin-top: 50px;
+	}
+
+	.heading-3 {
+		font-size: 40px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -215,6 +226,10 @@
 	.list-area-form {
 	    margin-top: 40px;
 	}
+
+	.footer-item-02, .footer-item-03 {
+		margin-top: 60px;
+	}
 }
 
 @media (max-width: 575px) {
@@ -258,6 +273,10 @@
 
 	.description-form {
 		margin-top: 20px !important;
+	}
+
+	.footer-item-03 {
+		margin-top: 30px;
 	}
 }
 
