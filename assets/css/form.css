@@ -152,5 +152,25 @@
     text-decoration: underline;
 }
 
+/* Footer footer */
+.form-footer .item-input {
+    margin-bottom: 15px;
+}
 
+.form-footer .check-box span {
+    color: #666;
+    font-weight: 500;
+}
+
+.btn-footer {
+    border-radius: 7px;
+    margin-top: 20px;
+    background-color: #333;
+    height: 38px;
+    line-height: 35px;
+}
+
+.form-footer textarea {
+    height: 150px;
+}
 
