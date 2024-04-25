@@ -10,6 +10,14 @@
 		margin-top: 70px;
 	}
 
+	.none-mobile {
+	    display: none;
+	}
+
+	.owl-carousel-section .wrap-image {
+		margin-bottom: 0;
+	}
+
 	.section-bgr.style-02 {
 		padding-top: 50px;
 		padding-bottom: 50px;
