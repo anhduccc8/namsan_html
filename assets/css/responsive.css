@@ -256,6 +256,10 @@
 	.row-custom {
 		justify-content: space-evenly;
 	}
+
+	.mt-30-sm {
+	    margin-top: 30px;
+	}
 }
 
 @media (max-width: 575px) {
