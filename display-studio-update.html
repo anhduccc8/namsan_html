@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Display Studio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/font/fontawesome-free-6.0.0-web/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/font-family.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/header.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/language.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/form.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/grid.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>	
+<body class="body-main">
+	<!-- Header -->
+	<header>
+		<div id="site-header-wrap" class="header-layout style-02">
+			<div class="container-fluidd">
+				<div class="row row-header align-center space-between">
+					<div class="site-branding header-left d-flex align-center">
+						<a class="logo logo-desktop" href="#" title="Mori"><img alt="logo-desktop" src="assets/image/logo-desktop.png"></a>
+						<div id="menu-reponsive" class="site-navigation header-menu">   
+							<div onclick="navClose()" class="nav-close"><i class="fa-solid fa-plus"></i></div> 
+							<div class="logo-menu-dropdown">
+								<a class="logo logo-desktop" href="#" title="Mori"><img alt="logo-desktop" src="assets/image/logo-desktop.png"></a>
+							</div>                                                                 
+							<ul class="main-menu">
+								<li>
+									<a href="#">Collections</a>
+								</li>
+								<li>
+									<a href="#">About</a>
+								</li>	
+								<li>
+									<a href="#">Stories</a>
+								</li>
+								<li>
+									<a href="#">Display Studio</a>
+								</li>
+								<li>
+									<a href="#">Contact</a>
+								</li>	
+								<li>
+									<form class="form-search-respon" action="/search" method="GET">
+										<input type="text" name="query" placeholder="Search">
+										<button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+									</form>
+								</li>	
+							</ul>
+						</div>
+					</div>
+
+					<div class="info-right d-flex align-center">
+						<div class="icon-heart">
+							<a href="#"><i class="fa-regular fa-heart"></i></a>
+						</div>
+						<div class="cms-lang-curentcy">
+							<div class="cms-lang">
+								<div class="cms-langue-active">EN</div>
+								<ul>
+									<li><a href="#">NL</a></li>
+									<li><a href="#">DE</a></li>
+									<li><a href="#">FR</a></li>
+								</ul>
+							</div>
+						</div>
+						<form class="form-search" action="/search" method="GET">
+							<input type="text" name="query" placeholder="Search">
+							<button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+						</form>
+						<div id="menu-sidebar" class="menu-sidebar">
+							<span class="btn-nav-icon open-menu" onclick="navOpen()"><span></span></span>
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div>
+	</header>	
+
+	<main class="site-content">
+		<section class="section-slide">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						<div class="main-slide">
+							<img src="assets/image/img-full-container.jpg" style="width: 100%;" alt="img-slide">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-widget" style="padding: 60px 0 70px; background-color: #ffd2df;">
+			<div class="container-fluiddd">
+				<div class="row">
+					<div class="col-12 text-center">
+						<div class="mw-1000 m-auto">
+							<div class="sub-heading style-02">ABOUT</div>
+							<h3 class="heading-3">
+								If you can imagine it we can create it.
+							</h3>
+							<div class="description">
+								Our story began with a view through a window. In 2002, we expanded that vision to define our future — shifting from setting the scene to creating the characters.
+								With over 40 years of proven industry experience in retail, wholesale, visual merchandising and concept development, it empowers us to create each mannequin with a distinctive charisma, because we understand each brand needs its own character.
+							</div>
+						</div>
+						<div class="image mt-30">
+							<img src="assets/image/img-content-01.jpg" style="width: 100%" alt="img-slide">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-widget" style="padding: 60px 0 70px;">
+			<div class="container-fluiddd">
+				<div class="row">
+					<div class="col-12 text-center">
+						<div class="mw-1000 m-auto">
+							<div class="sub-heading style-02">OUR PROCESS</div>
+							<h3 class="heading" style="font-size: 40px;">
+								<span>We can design, develop and produce props in all sizes and quantities.</span>
+							</h3>
+							<div class="description mt-30">
+								Bring props to life for clients like Moncler and others. Any shape or design if suitable for the purpose. For retail solutions or within your shop window scheme... even a keychain will do its job.
+							</div>
+							<a href="#" class=" mt-30 btn-main btn-icon">
+								EXPLORE OUR PREVIOUS WORK
+								<i class="fa-solid fa-angle-right"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-50">
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="item-carousel-content text-center">
+							<img src="assets/image/img-cr-01.png" style="width: 100%;">
+							<h3 class="heading-4">STEP 1</h3>
+							<div class="description">From sketch...</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="item-carousel-content text-center">
+							<img src="assets/image/img-cr-02.png" style="width: 100%;">
+							<h3 class="heading-4">STEP 2</h3>
+							<div class="description">To rough model...</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="item-carousel-content text-center">
+							<img src="assets/image/img-cr-03.png" style="width: 100%;">
+							<h3 class="heading-4">STEP 3</h3>
+							<div class="description">To detailed sculpt.</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="item-carousel-content text-center">
+							<img src="assets/image/img-cr-04.png" style="width: 100%;">
+							<h3 class="heading-4">STEP 4</h3>
+							<div class="description">Executed in any finish, material or size.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-widget mt-50">
+			<div class="container-fluidd">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6" style="margin-bottom: 30px;">
+						<div class="main-slide text-center">
+							<h5>FROM KEYCHAIN...</h5>
+							<img src="assets/image/img-column-pink-01.jpg" style="width: 100%;" alt="img-section-01">
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6" style="margin-bottom: 30px;">
+						<div class="main-slide text-center">
+							<h5>...TO CONCEPT</h5>
+							<img src="assets/image/img-column-pink-02.jpg" style="width: 100%;" alt="img-section-01">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-widget space-section">
+			<div class="container-fluidd">
+				<div class="row align-center">
+					<div class="col-12 col-lg-4 text-center">
+						<div class="mw-1000 m-auto">
+							<div class="sub-heading style-02">SHOWROOMS</div>
+							<h3 class="heading" style="font-size: 40px;">
+								<span>Imagination is infinite.</span>
+							</h3>
+							<div class="description mt-30">
+								If you can dream it, we can do it. With endless possibilities comes endless imagination. Let us bring your story to life.
+								Come visit our Hans Boodt Display Studio showrooms in Italy or The Netherlands!
+							</div>
+							<a href="#" class=" mt-30 btn-main btn-icon">
+								VISIT OUR SHOWROOMS
+								<i class="fa-solid fa-angle-right"></i>
+							</a>
+						</div>
+					</div>
+					<div class="col-12 col-lg-8 mt-lg-50">
+						<div class="row">
+							<div class="col-6">
+								<img src="assets/image/img-column-pink-03.jpg" style="width: 100%;" alt="img-slide">
+							</div>
+							<div class="col-6">
+								<img src="assets/image/img-column-pink-03.jpg" style="width: 100%;" alt="img-slide">
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- Footer -->
+	<footer class="footer-02">
+		<section class="footer-top">
+			<div class="container-fluidd">
+				<div class="row">
+					<div class="col-12 col-md-6">
+						<div class="form-contact-us-03">
+							<h3 class="heading" style="margin-bottom: 30px; font-size: 20px;">
+								CONTACT US!
+							</h3>
+							<div class="form-footer">
+								<form action="#" method="post">
+									<div class="row">
+										<div class="col-12 col-md-6">
+											<div class="item-input mb-40">
+												<input type="text" class="form-control">
+											</div>
+										</div>
+										<div class="col-12 col-md-6">
+											<div class="item-input mb-40">
+												<input type="text" class="form-control">
+											</div>
+										</div>
+									</div>
+									<div class="item-input mb-40">
+										<input type="email" class="form-control">
+									</div>
+									
+									<div class="item-input mb-40">
+										<textarea type="text" class="form-control"></textarea>
+									</div>
+									<div class="check-box mt-40">
+										<input name="gender" type="radio" value="Nam" />
+										<span>Would you like to receive the newsletter?</span>
+									</div>
+									<button type="submit" class="btn-main btn-footer">Send message</button>
+								</form>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-ct-2 col-sm-6 footer-item-02">
+						<h4 class="heading-footer-01">CONTACT DETAILS</h4>
+						<div class="contact-list">
+							<ul class="list-info">
+								<li>
+									<a href="tel:310103163200">
+										<i class="fa-solid fa-phone"></i>
+										31 (0)10 316 3200
+									</a>
+								</li>
+								<li>
+									<a href="maito:info@displaystudio.com">
+										<i class="fa-solid fa-envelope"></i>
+										info@displaystudio.com
+									</a>
+								</li>
+								<li>
+									<a href="maito:info@hansboodtdisplaystudio.com">
+										<i class="fa-solid fa-location-dot"></i>
+										Merwedeweg 6 3336LG, Zwijndrecht The Netherlands
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-lg-ct-2 col-sm-6 footer-item-03 mt-lg-50">
+						<div class="logo-footer">
+							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+									 viewBox="0 0 799 179" style="enable-background:new 0 0 799 179;" xml:space="preserve">
+								<style type="text/css">
+									.st0{fill:#F2F2F2;}
+									.st1{clip-path:url(#SVGID_2_);}
+									.st2{clip-path:url(#SVGID_4_);}
+									.st3{fill:none;stroke:#CCCCCC;stroke-miterlimit:10;}
+									.st4{fill:#FFFFFF;}
+									.st5{fill:#808080;}
+									.st6{clip-path:url(#SVGID_6_);}
+									.st7{fill:none;stroke:#000000;stroke-miterlimit:10;}
+									.st8{clip-path:url(#SVGID_8_);}
+									.st9{clip-path:url(#SVGID_10_);}
+									.st10{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+									.st11{fill:#FFEF5C;}
+									.st12{fill:#8154E2;}
+									.st13{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+									.st14{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+									.st15{fill:#33D9FF;}
+									.st16{fill:none;stroke:#666666;stroke-miterlimit:10;}
+									.st17{clip-path:url(#SVGID_12_);}
+									.st18{clip-path:url(#SVGID_14_);}
+									.st19{clip-path:url(#SVGID_16_);}
+									.st20{fill:none;stroke:#808080;stroke-miterlimit:10;}
+									.st21{clip-path:url(#SVGID_18_);}
+								</style>
+								<g>
+									<g>
+										<g>
+											<g>
+												<g>
+													<path d="M18.72,16.62h21.57v29.14h27.69V16.62h21.57v77.84H67.98V64.88H40.29v29.58H18.72V16.62z"/>
+												</g>
+											</g>
+											<g>
+												<g>
+													<path d="M124.69,16.06h20.79l33.14,78.4h-23.13l-5.67-13.9H119.8l-5.56,13.9H91.55L124.69,16.06z M143.6,63.77l-8.67-22.13
+														l-8.79,22.13H143.6z"/>
+												</g>
+											</g>
+											<g>
+												<g>
+													<path d="M180.62,16.62h20.13l32.03,41.15V16.62h21.35v77.84h-18.9l-33.25-42.7v42.7h-21.35V16.62z"/>
+												</g>
+											</g>
+											<g>
+												<g>
+													<path d="M256.46,82.9l12.01-14.35c7.67,6.12,16.24,9.34,25.24,9.34c5.78,0,8.9-2,8.9-5.34v-0.22c0-3.23-2.56-5-13.12-7.45
+														c-16.57-3.78-29.36-8.45-29.36-24.46v-0.22c0-14.46,11.45-24.91,30.14-24.91c13.23,0,23.58,3.56,32.03,10.34l-10.79,15.23
+														c-7.12-5-14.9-7.67-21.8-7.67c-5.23,0-7.78,2.22-7.78,5v0.22c0,3.56,2.67,5.12,13.46,7.56c17.9,3.89,29.02,9.67,29.02,24.24
+														v0.22c0,15.9-12.57,25.35-31.47,25.35C279.15,95.8,266.03,91.46,256.46,82.9z"/>
+												</g>
+											</g>
+											<g>
+												<g>
+													<path d="M354.54,16.62h39.92c9.79,0,16.68,2.45,21.24,7.01c3.11,3.11,5,7.23,5,12.57v0.22c0,9.01-5.12,14.35-12.01,17.35
+														c9.45,3.11,15.46,8.45,15.46,19.02V73c0,13.34-10.9,21.46-29.47,21.46h-40.14V16.62z M389.13,47.64
+														c6.56,0,10.23-2.22,10.23-6.78v-0.22c0-4.23-3.34-6.67-9.79-6.67h-14.01v13.68H389.13z M392.24,77.11
+														c6.56,0,10.34-2.56,10.34-7.12v-0.22c0-4.23-3.34-7.01-10.56-7.01h-16.46v14.35H392.24z"/>
+												</g>
+											</g>
+											<g>
+												<g>
+													<path d="M425.82,55.76v-0.22c0-22.35,18.02-40.48,42.03-40.48c24.02,0,41.81,17.9,41.81,40.26v0.22
+														c0,22.35-18.02,40.48-42.04,40.48C443.61,96.02,425.82,78.11,425.82,55.76z M487.65,55.76v-0.22
+														c0-11.23-8.12-21.02-20.02-21.02c-11.79,0-19.68,9.56-19.68,20.8v0.22c0,11.23,8.12,21.02,19.91,21.02
+														C479.76,76.56,487.65,66.99,487.65,55.76z"/>
+												</g>
+											</g>
+											<g>
+												<g>
+													<path d="M512.67,55.76v-0.22c0-22.35,18.02-40.48,42.04-40.48c24.02,0,41.81,17.9,41.81,40.26v0.22
+														c0,22.35-18.02,40.48-42.04,40.48C530.46,96.02,512.67,78.11,512.67,55.76z M574.5,55.76v-0.22c0-11.23-8.12-21.02-20.02-21.02
+														c-11.79,0-19.68,9.56-19.68,20.8v0.22c0,11.23,8.12,21.02,19.91,21.02C566.6,76.56,574.5,66.99,574.5,55.76z"/>
+												</g>
+											</g>
+											<g>
+												<g>
+													<path d="M599.96,16.62h30.02c27.8,0,43.93,16.01,43.93,38.48v0.22c0,22.46-16.35,39.14-44.37,39.14h-29.58V16.62z
+														 M630.32,75.33c12.9,0,21.46-7.12,21.46-19.68v-0.22c0-12.45-8.56-19.68-21.46-19.68h-8.79v39.59H630.32z"/>
+												</g>
+											</g>
+											<g>
+												<g>
+													<path d="M694.6,35.52h-23.35v-18.9h68.28v18.9h-23.35v58.94H694.6V35.52z"/>
+												</g>
+											</g>
+											<g>
+												<g>
+													<path d="M730.18,72.78h22.02v21.68h-22.02V72.78z"/>
+												</g>
+											</g>
+										</g>
+									</g>
+									<g>
+										<path d="M18.57,119.44h12.44c2.8,0,5.37,0.45,7.71,1.36c2.34,0.91,4.35,2.16,6.04,3.76c1.69,1.6,3,3.49,3.92,5.66
+											c0.92,2.17,1.38,4.52,1.38,7.04v0.1c0,2.53-0.46,4.88-1.38,7.07c-0.92,2.19-2.23,4.08-3.92,5.68c-1.69,1.6-3.7,2.87-6.04,3.79
+											c-2.34,0.92-4.91,1.38-7.71,1.38H18.57V119.44z M31.01,151.55c2.25,0,4.3-0.36,6.15-1.08c1.84-0.72,3.41-1.71,4.69-2.97
+											c1.28-1.26,2.27-2.76,2.97-4.48c0.7-1.72,1.05-3.58,1.05-5.56v-0.1c0-1.98-0.35-3.83-1.05-5.56c-0.7-1.72-1.69-3.23-2.97-4.51
+											c-1.28-1.28-2.84-2.29-4.69-3.02c-1.84-0.73-3.89-1.1-6.15-1.1h-8.4v28.37H31.01z"/>
+										<path d="M82.02,119.44h4.05v35.85h-4.05V119.44z"/>
+										<path d="M131.94,155.8c-2.87,0-5.49-0.47-7.86-1.41c-2.37-0.94-4.63-2.38-6.78-4.33l2.51-2.97c1.88,1.71,3.77,2.98,5.68,3.81
+											c1.91,0.84,4.11,1.25,6.61,1.25c2.42,0,4.36-0.57,5.81-1.72c1.45-1.14,2.18-2.6,2.18-4.38v-0.1c0-0.82-0.14-1.56-0.41-2.23
+											c-0.27-0.67-0.75-1.27-1.44-1.82c-0.68-0.55-1.63-1.04-2.85-1.48c-1.21-0.44-2.76-0.87-4.65-1.28c-2.05-0.44-3.84-0.96-5.36-1.54
+											c-1.52-0.58-2.78-1.28-3.77-2.1c-0.99-0.82-1.73-1.77-2.21-2.87c-0.48-1.09-0.72-2.37-0.72-3.84v-0.1c0-1.4,0.29-2.7,0.87-3.89
+											c0.58-1.19,1.4-2.23,2.46-3.1c1.06-0.87,2.3-1.55,3.74-2.05c1.43-0.49,3-0.74,4.71-0.74c2.63,0,4.92,0.37,6.89,1.1
+											c1.96,0.73,3.87,1.84,5.71,3.3l-2.36,3.12c-1.67-1.36-3.35-2.36-5.04-2.97c-1.69-0.61-3.46-0.92-5.3-0.92
+											c-2.36,0-4.22,0.56-5.58,1.66c-1.37,1.11-2.05,2.48-2.05,4.12v0.1c0,0.85,0.14,1.61,0.41,2.28c0.27,0.67,0.77,1.28,1.48,1.84
+											c0.72,0.56,1.71,1.08,2.97,1.54c1.26,0.46,2.88,0.9,4.86,1.31c3.99,0.89,6.94,2.12,8.83,3.69c1.89,1.57,2.84,3.72,2.84,6.45v0.1
+											c0,1.54-0.3,2.93-0.91,4.17c-0.61,1.25-1.44,2.31-2.51,3.2c-1.07,0.89-2.35,1.57-3.85,2.05
+											C135.36,155.56,133.72,155.8,131.94,155.8z"/>
+										<path d="M175.42,119.44h13.42c2.01,0,3.85,0.26,5.5,0.79c1.66,0.53,3.07,1.28,4.25,2.25c1.18,0.97,2.08,2.16,2.71,3.56
+											c0.63,1.4,0.95,2.99,0.95,4.76v0.1c0,1.95-0.38,3.64-1.13,5.1c-0.75,1.45-1.77,2.67-3.05,3.66c-1.28,0.99-2.77,1.73-4.48,2.23
+											c-1.71,0.5-3.52,0.74-5.43,0.74h-8.71v12.65h-4.05V119.44z M188.35,139c1.47,0,2.82-0.19,4.03-0.56c1.21-0.38,2.26-0.92,3.13-1.62
+											c0.87-0.7,1.54-1.53,2-2.49c0.46-0.96,0.69-2.04,0.69-3.24v-0.1c0-2.57-0.88-4.51-2.64-5.83c-1.76-1.32-4.1-1.98-7.01-1.98h-9.09
+											V139H188.35z"/>
+										<path d="M232.67,119.44h4.05v32.11h20.18v3.74h-24.22V119.44z"/>
+										<path d="M300.67,119.18h3.79l16.34,36.1h-4.35l-4.2-9.47h-19.51l-4.25,9.47h-4.15L300.67,119.18z M310.66,142.17l-8.14-18.28
+											l-8.19,18.28H310.66z"/>
+										<path d="M362.12,141.1l-14.9-21.66h4.92l12.06,17.92l12.16-17.92h4.71l-14.9,21.61v14.24h-4.05V141.1z"/>
+										<path d="M461.36,155.8c-2.87,0-5.49-0.47-7.86-1.41c-2.37-0.94-4.63-2.38-6.79-4.33l2.51-2.97c1.88,1.71,3.77,2.98,5.68,3.81
+											c1.91,0.84,4.11,1.25,6.61,1.25c2.42,0,4.36-0.57,5.81-1.72c1.45-1.14,2.18-2.6,2.18-4.38v-0.1c0-0.82-0.14-1.56-0.41-2.23
+											c-0.27-0.67-0.75-1.27-1.44-1.82c-0.69-0.55-1.63-1.04-2.85-1.48c-1.21-0.44-2.76-0.87-4.65-1.28c-2.05-0.44-3.84-0.96-5.36-1.54
+											c-1.52-0.58-2.78-1.28-3.77-2.1s-1.73-1.77-2.21-2.87c-0.48-1.09-0.72-2.37-0.72-3.84v-0.1c0-1.4,0.29-2.7,0.87-3.89
+											c0.58-1.19,1.4-2.23,2.46-3.1c1.06-0.87,2.3-1.55,3.74-2.05c1.43-0.49,3-0.74,4.71-0.74c2.63,0,4.92,0.37,6.89,1.1
+											c1.96,0.73,3.87,1.84,5.71,3.3l-2.36,3.12c-1.67-1.36-3.35-2.36-5.04-2.97c-1.69-0.61-3.46-0.92-5.3-0.92
+											c-2.36,0-4.22,0.56-5.58,1.66c-1.37,1.11-2.05,2.48-2.05,4.12v0.1c0,0.85,0.14,1.61,0.41,2.28c0.27,0.67,0.77,1.28,1.49,1.84
+											c0.72,0.56,1.71,1.08,2.97,1.54c1.26,0.46,2.88,0.9,4.86,1.31c3.99,0.89,6.94,2.12,8.83,3.69c1.89,1.57,2.84,3.72,2.84,6.45v0.1
+											c0,1.54-0.3,2.93-0.91,4.17c-0.61,1.25-1.44,2.31-2.51,3.2c-1.07,0.89-2.35,1.57-3.85,2.05
+											C464.77,155.56,463.13,155.8,461.36,155.8z"/>
+										<path d="M514.31,123.18h-12.03v-3.74h28.11v3.74h-12.03v32.11h-4.05V123.18z"/>
+										<path d="M575.4,155.85c-2.22,0-4.24-0.33-6.07-1c-1.83-0.67-3.4-1.66-4.71-2.97c-1.31-1.31-2.33-2.94-3.05-4.89
+											c-0.72-1.95-1.08-4.18-1.08-6.71v-20.84h4.05v20.59c0,3.89,0.96,6.88,2.89,8.96c1.93,2.08,4.62,3.12,8.07,3.12
+											c3.31,0,5.94-0.99,7.89-2.97c1.95-1.98,2.92-4.93,2.92-8.86v-20.84h4.05v20.53c0,2.63-0.36,4.93-1.08,6.91
+											c-0.72,1.98-1.73,3.64-3.05,4.97c-1.31,1.33-2.89,2.33-4.71,3C579.69,155.51,577.65,155.85,575.4,155.85z"/>
+										<path d="M622.97,119.44h12.44c2.8,0,5.37,0.45,7.71,1.36c2.34,0.91,4.35,2.16,6.04,3.76c1.69,1.6,3,3.49,3.92,5.66
+											c0.92,2.17,1.38,4.52,1.38,7.04v0.1c0,2.53-0.46,4.88-1.38,7.07c-0.92,2.19-2.23,4.08-3.92,5.68c-1.69,1.6-3.7,2.87-6.04,3.79
+											c-2.34,0.92-4.91,1.38-7.71,1.38h-12.44V119.44z M635.41,151.55c2.25,0,4.3-0.36,6.15-1.08c1.84-0.72,3.41-1.71,4.69-2.97
+											c1.28-1.26,2.27-2.76,2.97-4.48c0.7-1.72,1.05-3.58,1.05-5.56v-0.1c0-1.98-0.35-3.83-1.05-5.56c-0.7-1.72-1.69-3.23-2.97-4.51
+											c-1.28-1.28-2.84-2.29-4.69-3.02c-1.84-0.73-3.89-1.1-6.15-1.1h-8.4v28.37H635.41z"/>
+										<path d="M686.41,119.44h4.05v35.85h-4.05V119.44z"/>
+										<path d="M740.64,155.9c-2.73,0-5.22-0.5-7.45-1.49c-2.24-0.99-4.16-2.33-5.76-4.02c-1.6-1.69-2.84-3.65-3.71-5.89
+											c-0.87-2.24-1.31-4.58-1.31-7.04v-0.1c0-2.46,0.44-4.81,1.33-7.07c0.89-2.25,2.13-4.22,3.74-5.91c1.6-1.69,3.53-3.04,5.79-4.05
+											c2.25-1.01,4.74-1.51,7.48-1.51c2.73,0,5.21,0.5,7.45,1.48c2.24,0.99,4.16,2.33,5.76,4.02c1.6,1.69,2.84,3.65,3.71,5.89
+											c0.87,2.24,1.31,4.58,1.31,7.04c0.03,0.03,0.03,0.07,0,0.1c0,2.46-0.44,4.81-1.33,7.07c-0.89,2.25-2.13,4.22-3.74,5.91
+											c-1.61,1.69-3.53,3.04-5.79,4.05C745.87,155.39,743.37,155.9,740.64,155.9z M740.75,152.16c2.05,0,3.93-0.38,5.66-1.15
+											c1.72-0.77,3.2-1.82,4.43-3.15c1.23-1.33,2.19-2.88,2.89-4.66c0.7-1.77,1.05-3.69,1.05-5.74v-0.1c0-2.05-0.35-3.97-1.05-5.76
+											c-0.7-1.79-1.68-3.35-2.94-4.69c-1.26-1.33-2.76-2.39-4.48-3.18c-1.72-0.78-3.61-1.18-5.66-1.18c-2.05,0-3.93,0.38-5.66,1.15
+											c-1.72,0.77-3.2,1.82-4.43,3.15c-1.23,1.33-2.19,2.89-2.89,4.66c-0.7,1.78-1.05,3.69-1.05,5.74v0.1c0,2.05,0.35,3.97,1.05,5.76
+											c0.7,1.79,1.68,3.35,2.94,4.69c1.26,1.33,2.76,2.39,4.48,3.17C736.81,151.77,738.7,152.16,740.75,152.16z"/>
+									</g>
+								</g>
+							</svg>
+						</div>
+						<div class="description">
+							With the use of our 3D Studio, our creatives and our designers, we are ready to take your brand experience to the next level and support it with additional props and characters.
+						</div>
+						<ul class="list-social">
+							<li>
+								<a href="#"><i class="fa-brands fa-instagram"></i></a>
+								<a href="#"><i class="fa-brands fa-facebook"></i></a>
+								<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</section>
+
+			<section class="footer-bottom-02">
+				<div class="container-fluidd">
+					<div class="row">
+						<div class="col-12">
+							<p>© HANS BOODT MANNEQUINS 2024</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</footer>
+
+	<a href="#" class="scroll-top on">
+		<i class="zmdi zmdi-long-arrow-up"></i>
+	</a>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
